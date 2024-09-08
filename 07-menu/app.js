@@ -106,7 +106,7 @@ function diplayMenuItems(menuItems) {
           </div>
         </article>`;
   });
-  displayMenu = displayMenu.join("");
+  displayMenu = displayMenu.join(""); // removes comma
   // console.log(displayMenu);
 
   sectionCenter.innerHTML = displayMenu;
